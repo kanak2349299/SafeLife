@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime files
+data/*.sqlite3
+data/*.sqlite3-journal
+*.log
+
+# IDE & OS garbage
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
